@@ -1,5 +1,5 @@
 #To install the dependecies use: pip install -r requirements.txt
 
 pandas
-sqlalchemy
+sqlalchemy==1.4.46
 pyodbc
