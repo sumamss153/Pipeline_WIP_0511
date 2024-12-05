@@ -6,7 +6,7 @@ from db_connection import connect_to_db
 from config import DATA_FOLDER
 from sqlalchemy import create_engine
 
-# Extract step: Read the CSV file
+# Extract step: Read the CSV file from local
 def extract_data():
 
     df = pd.read_csv(r"C:\Users\Sumam.Selvin\Downloads\dqthon-participants.csv")
